@@ -1,0 +1,35 @@
+
+{
+    "_QPVersion": "0.1.1",
+    "name": "Hover Monke",
+    "id": "hovermonke",
+    "author": "Buzz Bzzz bzz BZZZ The 18th#0431",
+    "version": "1.0.0",
+    "packageId": "com.AnotherAxiom.GorillaTag",
+    "packageVersion": "1.0.9",
+    "coverImage": "hoverMonke.png",
+    "description": "Become hooooover bike",
+    "dependencies": [
+        {
+            "id": "monkecodegen",
+            "version": ">=0.6.0",
+            "downloadIfMissing": "https://github.com/RedBrumbler/MonkeCodegen/releases/latest/download/MonkeCodegen.qmod"
+        },
+        {
+            "id": "MonkeComputer",
+            "version": ">=1.5.2",
+            "downloadIfMissing": "https://github.com/RedBrumbler/MonkeComputer/releases/latest/download/MonkeComputer.qmod"
+        },
+        {
+            "id": "gorillautils",
+            "version": ">=0.1.9",
+            "downloadIfMissing": "https://github.com/RedBrumbler/GorillaUtils/releases/latest/download/GorillaUtils.qmod"
+        }
+    ],
+    "modFiles": [
+        "libhovermonke.so"
+    ],
+    "libraryFiles": [
+        "libbeatsaber-hook_1_3_5.so"
+    ]
+}
